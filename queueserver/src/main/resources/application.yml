@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: queueserver
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
