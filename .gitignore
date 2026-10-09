@@ -1,0 +1,85 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Kotlin ###
+.kotlin/
+
+### IntelliJ IDEA ###
+# Gradle import가 매번 재생성하는 파일 (커밋하면 sync 충돌 원인)
+.idea/modules.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules/
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/sonarlint/
+.idea/caches/
+.idea/aws.xml
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### 로그 / 런타임 산출물 ###
+*.log
+logs/
+dump.rdb
+*.hprof
+hs_err_pid*
+replay_pid*
+
+### 로컬 설정 / 비밀값 ###
+.env
+.env.*
+*.local.yml
+*.local.yaml
+*.local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+**/application-secret.yml
+*.pem
+*.p12
+*.jks
+
+### OS ###
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+### 하위 모듈 Initializr 보일러플레이트 ###
+*/HELP.md
